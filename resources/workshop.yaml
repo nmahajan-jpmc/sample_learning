@@ -5,7 +5,7 @@ metadata:
 spec:
   title: Markdown Sample
   description: A sample workshop using Markdown
-  vendor: eduk8s.io
+  vendor: learningcenter.tanzu.vmware.com
   difficulty: beginner
   duration: 15m
   url: https://github.com/nmahajan-jpmc/sample_learning
