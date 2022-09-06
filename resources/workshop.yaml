@@ -1,4 +1,4 @@
-apiVersion: training.eduk8s.io/v1alpha2
+apiVersion: learningcenter.tanzu.vmware.com/v1beta1
 kind: Workshop
 metadata:
   name: lab-markdown-sample
@@ -8,10 +8,10 @@ spec:
   vendor: eduk8s.io
   difficulty: beginner
   duration: 15m
-  url: https://github.com/eduk8s/lab-markdown-sample
+  url: https://github.com/nmahajan-jpmc/sample_learning
   content:
-    #image: quay.io/eduk8s/lab-markdown-sample:master
-    files: github.com/eduk8s/lab-markdown-sample
+    image: quay.io/eduk8s/lab-markdown-sample:master
+    #files: github.com/nmahajan-jpmc/sample_learning
   session:
     namespaces:
       budget: small
