@@ -1,7 +1,7 @@
 apiVersion: learningcenter.tanzu.vmware.com/v1beta1
 kind: Workshop
 metadata:
-  name: lab-markdown-sample
+  name: sample-learning
 spec:
   title: Markdown Sample
   description: A sample workshop using Markdown
