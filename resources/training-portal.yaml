@@ -8,6 +8,6 @@ spec:
       type: anonymous
   workshops:
   - name: sample-learning
-    capacity: 1
+    capacity: 2
     expires: 60m
     orphaned: 5m
