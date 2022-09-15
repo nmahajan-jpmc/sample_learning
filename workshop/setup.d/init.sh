@@ -1,2 +1,2 @@
 #!/bin/bash
-npm install solc
+npm install -g solc
