@@ -13,6 +13,9 @@ spec:
     #image: quay.io/eduk8s/lab-markdown-sample:master
     files: github.com/nmahajan-jpmc/sample_learning
   session:
+    ingresses:
+    - name: explorer
+      port: 25000
     namespaces:
       budget: small
     applications:
@@ -23,3 +26,6 @@ spec:
         enabled: true
       editor:
         enabled: true
+    dashboards:
+    - name: quorum-explorer
+      url: "$(ingress_protocol)://$(session_namespace)-explorer.$(ingress_domain)/"
