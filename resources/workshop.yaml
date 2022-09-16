@@ -14,7 +14,7 @@ spec:
     files: github.com/nmahajan-jpmc/sample_learning
   session:
     ingresses:
-    - name: explorer
+    - name: quorum
       port: 25000
     namespaces:
       budget: small
@@ -27,5 +27,5 @@ spec:
       editor:
         enabled: true
     dashboards:
-    - name: quorum-explorer
-      url: "$(ingress_protocol)://$(session_namespace)-explorer.$(ingress_domain)/"
+    - name: quorum
+      url: "$(ingress_protocol)://$(session_namespace)-quorum.$(ingress_domain)/"
