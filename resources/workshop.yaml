@@ -1,7 +1,7 @@
 apiVersion: learningcenter.tanzu.vmware.com/v1beta1
 kind: Workshop
 metadata:
-  name: sample-learning
+  name: sample-awesome-learning
 spec:
   title: Markdown Sample
   description: A sample workshop using Markdown

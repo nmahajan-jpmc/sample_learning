@@ -1,13 +1,13 @@
 apiVersion: learningcenter.tanzu.vmware.com/v1beta1
 kind: TrainingPortal
 metadata:
-  name: sample-learning
+  name: sample-awesome-learning
 spec:
   portal:
     registration:
       type: anonymous
   workshops:
-  - name: sample-learning
+  - name: sample-awesome-learning
     capacity: 2
     expires: 60m
     orphaned: 5m
