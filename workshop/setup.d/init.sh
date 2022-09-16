@@ -1,4 +1,4 @@
 #!/bin/bash
-npm install -g solc
+npm install solc
 echo ***init script called***
 mkdir /home/eduk8s/test
