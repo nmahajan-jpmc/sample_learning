@@ -13,6 +13,8 @@ spec:
     #image: quay.io/eduk8s/lab-markdown-sample:master
     files: github.com/nmahajan-jpmc/sample_learning
   session:
+    resources:
+      memory: 4Gi
     ingresses:
     - name: quorum
       port: 25000
