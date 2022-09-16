@@ -10,31 +10,31 @@
     {
       "name": "validator1",
       "client": "goquorum",
-      "rpcUrl": "http://goquorum-node-validator-1.onyx.svc.cluster.local:21000",
+      "rpcUrl": "http://goquorum-node-validator-1.onyx.svc.cluster.local:8545",
       "privateTxUrl": ""
     },
     {
       "name": "validator2",
       "client": "goquorum",
-      "rpcUrl": "http://goquorum-node-validator-2.onyx.svc.cluster.local:21000",
+      "rpcUrl": "http://goquorum-node-validator-2.onyx.svc.cluster.local:8545",
       "privateTxUrl": ""
     },
     {
       "name": "validator3",
       "client": "goquorum",
-      "rpcUrl": "http://goquorum-node-validator-3.onyx.svc.cluster.local:21000",
+      "rpcUrl": "http://goquorum-node-validator-3.onyx.svc.cluster.local:8545",
       "privateTxUrl": ""
     },
     {
       "name": "validator4",
       "client": "goquorum",
-      "rpcUrl": "http://goquorum-node-validator-4.onyx.svc.cluster.local:21000",
+      "rpcUrl": "http://goquorum-node-validator-4.onyx.svc.cluster.local:8545",
       "privateTxUrl": ""
     },
     {
       "name": "member1",
       "client": "goquorum",
-      "rpcUrl": "http://goquorum-node-member-1.onyx.svc.cluster.local:20000",
+      "rpcUrl": "http://goquorum-node-member-1.onyx.svc.cluster.local:8545",
       "privateTxUrl": "http://goquorum-node-member-1.onyx.svc.cluster.local:9080",
       "privateKey": "0x194aebc6e6aef0863f567867cc8296609ebe27d2aa4b23e8d075c7d309ef0be4",
       "accountAddress": "0x84d57c78f8bafc578a6aadbfc3ab581a4b8c9e4f"
