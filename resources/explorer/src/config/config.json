@@ -36,8 +36,8 @@
       "client": "goquorum",
       "rpcUrl": "http://goquorum-node-member-1.onyx.svc.cluster.local:20000",
       "privateTxUrl": "http://goquorum-node-member-1.onyx.svc.cluster.local:9080",
-      "privateKey": "0x8f2a55949038a9610f50fb23b5883af3b4ecb3c3bb792cbcefbd1542c692be63",
-      "accountAddress": "0xfe3b557e8fb62b89f4916b721be55ceb828dbd73"
+      "privateKey": "0x194aebc6e6aef0863f567867cc8296609ebe27d2aa4b23e8d075c7d309ef0be4",
+      "accountAddress": "0x84d57c78f8bafc578a6aadbfc3ab581a4b8c9e4f"
     }
   ]
 }
