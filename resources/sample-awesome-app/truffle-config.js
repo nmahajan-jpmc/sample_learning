@@ -66,7 +66,7 @@ module.exports = {
     //
     development: {
       host: "goquorum-node-validator-1.onyx.svc.cluster.local",     // Localhost (default: none)
-      port: 2100,            // Standard Ethereum port (default: none)
+      port: 8545,            // Standard Ethereum port (default: none)
       type: "quorum",  
       network_id: "*", // Match any network id
      }
