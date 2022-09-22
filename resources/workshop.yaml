@@ -7,7 +7,7 @@ spec:
   description: A playground digging deeper into a pre-installed quorum setup. This will let you create/compile and deploy smart-contracts and dApps using Truffle
   vendor: learningcenter.tanzu.vmware.com
   difficulty: beginner
-  duration: 24 h
+  duration: 24h
   url: https://github.com/nmahajan-jpmc/sample_learning
   content:
     #image: quay.io/eduk8s/lab-markdown-sample:master
