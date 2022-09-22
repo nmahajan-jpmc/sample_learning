@@ -1,12 +1,13 @@
 modules:
-    workshop-overview:
-        name: Workshop Overview
-        exit_sign: Setup Environment
-    setup-environment:
-        name: Setup Environment
-        exit_sign: Start Workshop
-    exercises/01-sample-content:
-        name: Sample Content
+    miners-overview:
+        name: Miner's Overview
+        exit_sign: Awesome App
+    awesome-app:
+        name: Awesome App
+        exit_sign: Create My App
+    create-app:
+        name: Create My App
+        exit_sign: Workshop Summary
     workshop-summary:
         name: Workshop Summary
         exit_sign: Finish Workshop

@@ -1,13 +1,13 @@
 apiVersion: learningcenter.tanzu.vmware.com/v1beta1
 kind: Workshop
 metadata:
-  name: sample-awesome-learning
+  name: miner
 spec:
-  title: Markdown Sample
-  description: A sample workshop using Markdown
+  title: The Miner
+  description: A playground digging deeper into a pre-installed quorum setup. This will let you create/compile and deploy smart-contracts and dApps using Truffle
   vendor: learningcenter.tanzu.vmware.com
   difficulty: beginner
-  duration: 15m
+  duration: 1 day
   url: https://github.com/nmahajan-jpmc/sample_learning
   content:
     #image: quay.io/eduk8s/lab-markdown-sample:master

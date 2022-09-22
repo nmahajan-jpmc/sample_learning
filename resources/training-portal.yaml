@@ -1,13 +1,19 @@
 apiVersion: learningcenter.tanzu.vmware.com/v1beta1
 kind: TrainingPortal
 metadata:
-  name: sample-awesome-learning
+  name: onyx-playgrounds
 spec:
   portal:
+    title: Onyx Playgrounds
+    logo: https://www.jpmorgan.com/onyx/images/logo.svg
     registration:
       type: anonymous
+    updates:
+      workshop: true
+    password: onyx-demo
   workshops:
-  - name: sample-awesome-learning
-    capacity: 2
-    expires: 60m
-    orphaned: 5m
+  - name: miner
+    capacity: 10
+    reserved: 3
+    expires: 24h
+    orphaned: 1h
