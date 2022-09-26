@@ -1,4 +1,4 @@
-name: Miners
+name: miner
 
 modules:
     activate:

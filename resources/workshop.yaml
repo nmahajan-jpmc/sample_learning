@@ -1,10 +1,10 @@
 apiVersion: learningcenter.tanzu.vmware.com/v1beta1
 kind: Workshop
 metadata:
-  name: mines
+  name: miner
 spec:
-  title: The Mines
-  description: A playground digging deeper into a pre-installed quorum setup. This will let you create/compile and deploy smart-contracts and dApps using Truffle
+  title: The Miners
+  description: A classroom digging deeper into a pre-installed quorum setup. This will let you create/compile and deploy smart-contracts and dApps using Truffle
   vendor: learningcenter.tanzu.vmware.com
   difficulty: beginner
   duration: 24h

@@ -1,4 +1,4 @@
-This playground is packed with a very simple but awesome app in the folder 'awesome-app'. You can click on the editor tab to see all the awesome things in there. 
+This room is packed with a very simple but awesome app in the folder 'awesome-app'. You can click on the editor tab to see all the awesome things in there. 
 The first thing you will need is the Smart Contract. See one hidden under the 'contracts' folder. This is what tells the blockchain what data are you planning to store and use for your next innovation.
 
 To compile this smart contract just run the below commands:
