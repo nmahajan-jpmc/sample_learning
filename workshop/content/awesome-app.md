@@ -11,7 +11,7 @@ file: ~/awesome-app/contracts/simpleStorage.sol
 To compile this smart contract just run the below commands.
 
 ```execute
-cd awesome-app
+cd ~/awesome-app
 truffle compile
 ```
 This contract can be accompanied by a migration script  that help you deploy contracts to the Ethereum network. These files are responsible for staging your deployment tasks, and they're written under the assumption that your deployment needs will change over time. Here is a sample script which initialises the value or our variable to '42'.
