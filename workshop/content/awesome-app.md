@@ -17,7 +17,7 @@ truffle compile
 This contract can be accompanied by a migration script  that help you deploy contracts to the Ethereum network. These files are responsible for staging your deployment tasks, and they're written under the assumption that your deployment needs will change over time. Here is a sample script which initialises the value or our variable to '42'.
 
 ```editor:open-file
-file: ~/awesome-app/migrations/2_deploy_simpleStorage.js
+file: ~/awesome-app/migrations/2_deploy_simplestorage.js
 ```
 
 Now you have your own smart contract ready to be deployed to Quorum. Lets deploy it!
