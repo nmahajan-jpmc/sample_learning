@@ -25,9 +25,10 @@ Now you have your own smart contract ready to be deployed to Quorum. Lets deploy
 ```execute
 truffle migrate
 ```
-### dApps
 
-Now that we have a smart contract deploy lets try an read its value. Every Smart Contract deployed is automatically accompanied by their own methods like 'get' and 'set'. dApps makes use if these methods to manipulate the data and get the desired result. Lets try reading the initial value of our contract. A sample js code using the contact's get method is detailed here
+### Decentralized applications
+
+Now that we have a smart contract deploy lets try an read its value. Every Smart Contract deployed is automatically accompanied by their own methods like 'get' and 'set'. Decentralized applications makes use if these methods to manipulate the data and get the desired result. Lets try reading the initial value of our contract. A sample js code using the contact's get method is detailed here
 
 ```editor:open-file
 file: ~/awesome-app/getSimpleStorageValue.js
