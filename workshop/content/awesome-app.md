@@ -35,7 +35,7 @@ file: ~/awesome-app/getSimpleStorageValue.js
 you can read the value by running the below command.
 
 ```execute
-truffle exec sampleTx.js
+truffle exec getSimpleStorageValue.js
 ```
 
 All that is left now is to make a transaction using this smart contract.'sampleTx.js' is a very simple transaction which lets you manipulate the value of the data in the smartcontract to 65.
