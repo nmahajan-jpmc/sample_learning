@@ -1,4 +1,5 @@
 #!/bin/bash
+cp -Rf resources/overlay/gateway/* /opt/gateway/
 mkdir -p .npm-global
 npm config set prefix '/home/eduk8s/.npm-global'
 npm install -g solc

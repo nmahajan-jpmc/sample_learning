@@ -11,6 +11,13 @@ spec:
     updates:
       workshop: true
     password: onyx-demo
+    theme:
+      frame:
+        ancestors:
+        - https://www.classrooms.learningcenter.tap.xploreonyx.com
+        - https://classrooms.learningcenter.tap.xploreonyx.com
+        - https://classrooms-ui.learningcenter.tap.xploreonyx.com/
+        - self
   workshops:
   - name: miner
     capacity: 10
